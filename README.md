@@ -1,7 +1,8 @@
 # Recording operating system learning
 
-### TODO:
-  🚧 ch_1 A Tour of Computer Systems
+### TODO
+
+  ✅ ch_1 A Tour of Computer Systems
 
   🚧 ch_2 Representing and Manipulating Information
 
@@ -24,3 +25,4 @@
   🚧 ch_11 Network Programming
   
   🚧 ch_12 Concurrent Programming
+

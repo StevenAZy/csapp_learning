@@ -44,4 +44,17 @@
 ## 1.9 Import themes
 
 - Amdahl's law
+  - When we speed up one part of a system, the effect on the overall system performance depends on both how significant this part was and how much it sped up.
 $$\text{Speedup} = \frac{1}{(1 - \alpha) + \frac{\alpha}{k}}$$
+
+- Concurrency and parallelism (do more, run faster)
+  - Thread-level Concurrency
+  - Instruction-level parallelism
+  - Single-instruction, Multiple-data(SIMD) parallelism
+
+- The importance of abstractions in computer system
+  - Files(I/O devices), Virtual memory(Files + Main Memory), Instruction set architecture(Processor), Processes(Virtual memory + Instruction set architecture), Virtual machine(Processes + Operating system)
+
+## 1.10 Summary
+
+ -Refer to the book for more details.
