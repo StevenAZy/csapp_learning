@@ -25,13 +25,40 @@ void test_show_bytes(int val) {
   show_pointer(pval);
 }
 
+float sum_elements(float a[], unsigned length) {
+  int i;
+  float result = 0;
+
+  for (i = 0; i <= length - 1; i++)
+    result += a[i];
+  return result;
+}
+
 int main() {
   // int val = 12345;
   // test_show_bytes(val);
-  short x = 12345;
-  short mx = -x;
+  // short x = 12345;
+  // short mx = -x;
+  //
+  // show_bytes((byte_pointer)&x, sizeof(short));
+  // show_bytes((byte_pointer)&mx, sizeof(short));
 
-  show_bytes((byte_pointer)&x, sizeof(short));
-  show_bytes((byte_pointer)&mx, sizeof(short));
+  //   short sx = -12345;
+  //   unsigned short usx = sx;
+  //   int x = sx;
+  //   unsigned int ux = usx;
+  //
+  //   printf("sx = %d:\t", sx);
+  //   show_bytes((byte_pointer)&sx, sizeof(short));
+  //   printf("usx = %u:\t", usx);
+  //   show_bytes((byte_pointer)&usx, sizeof(unsigned short));
+  //   printf("x = %d:\t", x);
+  //   show_bytes((byte_pointer)&x, sizeof(int));
+  //   printf("ux = %u:\t", ux);
+  //   show_bytes((byte_pointer)&ux, sizeof(unsigned int));
+
+  float a[5] = {1.2, 1, 2, 3, 4};
+  float res = sum_elements(a, 0);
+  printf("%f", res);
   return 0;
 }

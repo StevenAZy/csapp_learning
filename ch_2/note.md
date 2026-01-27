@@ -22,3 +22,9 @@
 - Unsigned encodings
 - Two's-complement encodings
 - Conversions between signed and unsigned
+- Signed versus unsigned in C
+- Expanding the bit representation of a number
+- Truncating numbers
+- Advice on signed versus unsigned
+
+## 2.3 Integer arithmetic
