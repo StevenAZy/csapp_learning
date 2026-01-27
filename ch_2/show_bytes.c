@@ -26,7 +26,12 @@ void test_show_bytes(int val) {
 }
 
 int main() {
-  int val = 12345;
-  test_show_bytes(val);
+  // int val = 12345;
+  // test_show_bytes(val);
+  short x = 12345;
+  short mx = -x;
+
+  show_bytes((byte_pointer)&x, sizeof(short));
+  show_bytes((byte_pointer)&mx, sizeof(short));
   return 0;
 }

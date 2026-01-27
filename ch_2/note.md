@@ -17,3 +17,8 @@
 - Shift operations in C
 
 ## 2.2 Integer Representation
+
+- Integral data types
+- Unsigned encodings
+- Two's-complement encodings
+- Conversions between signed and unsigned
