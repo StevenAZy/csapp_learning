@@ -4,7 +4,7 @@
 
   ✅ ch_1 A Tour of Computer Systems
 
-  🚧 ch_2 Representing and Manipulating Information
+  ✅ ch_2 Representing and Manipulating Information
 
   🚧 ch_3 Machine-Level Representation of Programs
 
