@@ -28,3 +28,21 @@
 - Advice on signed versus unsigned
 
 ## 2.3 Integer arithmetic
+
+- Unsigned addition
+- Two's-complement addition
+- Two's-complement negation
+- Unsigned multiplication
+- Two's-complement multiplication
+- Multiplying by constants
+- Dividing by powers of 2
+- Final thoughts on integer arithmetic
+
+## 2.4 Floating Point
+
+- Fractional binary numbers
+- IEEE floating-point representation
+- Example numbers
+- Rounding
+- Floating-point operations
+- Floating point in C
