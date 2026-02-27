@@ -11,3 +11,14 @@
 - Notes on formatting
 
 ## 3.3 Data Formats
+
+## 3.4 Accessing information
+
+- Operand specifiers
+  - immediate
+  - register
+  - memory
+- Data movement instructions
+- Pushing and popping stack data
+
+## 3.5 Arithmetic and logical operations
